@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    font-family: 'SUITE-Regular';
+}
+
+.wrap {
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #272625;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.title-bar {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 40vh;
+  margin-bottom: 50vh;
+}
+
+
+#name {
+    color: #fff1b9;
+    font-weight: 500;
+    font-size: 150%;
+}
+
+.infomation {
+  position: relative;
+  left: 15vh;
+  margin-bottom: 23x0px;
+}
+
+.team-list {
+  position: relative;
+  text-align: right;
+  right: 15vh;
+}
+
+.team-in-title {
+}
+
+.team-description {
+}
+
+.team-list-name-1 {
+  font-size: 35px;
+  display: inline;
+  margin: 20px;
+  padding: 20px;
+  padding-left: 70px;
+  border: #ffffff;
+  background-color: #343331;
+  border-radius: 10px;
+}
+
+#kkutuio {
+  position: relative;
+  top: 15px;
+  width: 55px;
+  height: 55px;
+  margin-right: 10px;
+}
+
+.team-list-name-2 {
+  font-size: 35px;
+  display: inline;
+  padding: 20px;
+  padding-left: 30px;
+  border: #ffffff;
+  background-color: #343331;
+  border-radius: 10px;
+}
+
+footer{
+  border-top: 1px solid #e4e4e4;
+  padding:1rem ;
+  margin:5rem 0;
+  margin-bottom: 40px;
+}
+
+.footer-message{
+  font-weight: bold;
+  font-size:0.9rem;
+  color:#545e6f;
+  margin:0 0 0 0.6rem;
+  align-items: center;
+}
+.footer-contact{
+  font-size:0.9rem;
+  color:#545e6f;
+  margin:0.6rem;
+}
+.footer-copyright{
+  font-size:0.9rem;
+  color:#545e6f;
+  margin:0.6rem;
+}
+
+.inner {
+  top: 20px;
+  position: relative;
+  align-items: center;
+}
