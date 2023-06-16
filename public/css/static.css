@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  * {
+    font-family: 'SUITE-Regular';
+  }
+  
+  .wrap {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+  }
+  
+  html,body,section {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #272625;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+.header-menu {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    background: #1e212580;
+
+}
+
+.menu-all {
+    position: absolute;
+    bottom: 2vh;
+    right: 15vh;
+    text-align: right;
+    justify-items: auto;
+    margin-left: 2vh;
+    padding-left: 2vh;
+}
+
+#menu-home {
+    padding-right: 20px;
+    color: white;
+    transition: 0.2s;
+    text-decoration-line: none;
+}
+
+#menu-home:hover{
+    font-size: 110%;
+}
+
+#menu-project {
+    padding-right: 20px;
+    color: white;
+    transition: 0.2s;
+    text-decoration-line: none;
+}
+
+#menu-project:hover{
+    font-size: 110%;
+}
+
+footer {
+    border-top: 1px solid #e4e4e4;
+    padding: 1rem;
+    margin: 20rem 0;
+    margin-bottom: 40px;
+  }
+  
+  .footer-message {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: rgb(84, 94, 111);
+    margin: 0 0 0 0.6rem;
+    align-items: center;
+  }
+  
+  .footer-contact {
+    font-size: 0.9rem;
+    color: #545e6f;
+    margin: 0.6rem;
+  }
+  
+  .footer-copyright {
+    font-size: 0.9rem;
+    color: #545e6f;
+    margin: 0.6rem;
+  }
+  
+  .inner {
+    top: 20px;
+    position: relative;
+    align-items: center;
+  }
+  
